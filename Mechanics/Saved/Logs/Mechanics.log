@@ -2143,3 +2143,348 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.24-01.57.48:380][801]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.12.24-01.57.48:380][801]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.12.24-01.57.48:380][801]AssetCheck: /Game/StartMap Validating asset
+[2025.12.24-02.02.18:021][263]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2025.12.24-02.02.18:058][264]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_15
+[2025.12.24-02.02.18:100][265]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_16
+[2025.12.24-02.02.18:115][266]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_17
+[2025.12.24-02.02.18:131][267]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_18
+[2025.12.24-02.02.19:979][469]LogContentBrowser: Deferred new asset file creation: BP_Sniper1
+[2025.12.24-02.02.19:985][469]LogContentBrowser: Creating deferred item: BP_Sniper1
+[2025.12.24-02.02.19:994][470]LogContentBrowser: Renaming the item being created (Deferred Item: BP_Sniper1).
+[2025.12.24-02.02.27:681][385]LogContentBrowser: Attempting asset rename: BP_Sniper1 -> BP_Blaster
+[2025.12.24-02.02.27:707][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2025.12.24-02.02.27:718][385]LogContentBrowser: End creating deferred item BP_Sniper1
+[2025.12.24-02.02.53:121][134]LogContentBrowser: Attempting asset rename: BP_Blaster -> BP_Blaster
+[2025.12.24-02.03.28:796][312]LogContentBrowser: Deferred new asset file creation: BP_Sniper_Pickup1
+[2025.12.24-02.03.28:802][312]LogContentBrowser: Creating deferred item: BP_Sniper_Pickup1
+[2025.12.24-02.03.28:810][313]LogContentBrowser: Renaming the item being created (Deferred Item: BP_Sniper_Pickup1).
+[2025.12.24-02.03.29:702][419]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 683.101685
+[2025.12.24-02.03.29:868][439]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.24-02.03.29:869][439]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 683.260193, Update Interval: 318.166443
+[2025.12.24-02.03.46:016][364]LogContentBrowser: Attempting asset rename: BP_Sniper_Pickup1 -> BP_Blaster_Pickup
+[2025.12.24-02.03.46:037][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.12.24-02.03.46:046][364]LogContentBrowser: End creating deferred item BP_Sniper_Pickup1
+[2025.12.24-02.03.46:047][364]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_19
+[2025.12.24-02.03.52:398][ 49]LogContentBrowser: Deferred new asset file creation: SM_TankTurret_Sniper1
+[2025.12.24-02.03.52:413][ 49]LogContentBrowser: Creating deferred item: SM_TankTurret_Sniper1
+[2025.12.24-02.03.52:421][ 50]LogContentBrowser: Renaming the item being created (Deferred Item: SM_TankTurret_Sniper1).
+[2025.12.24-02.03.59:374][878]LogContentBrowser: Attempting asset rename: SM_TankTurret_Sniper1 -> SM_TankTurret_Blaster
+[2025.12.24-02.03.59:378][878]LogContentBrowser: End creating deferred item SM_TankTurret_Sniper1
+[2025.12.24-02.04.09:523][978]LogContentBrowser: Deferred new asset file creation: BP_bullet1
+[2025.12.24-02.04.09:530][978]LogContentBrowser: Creating deferred item: BP_bullet1
+[2025.12.24-02.04.09:538][979]LogContentBrowser: Renaming the item being created (Deferred Item: BP_bullet1).
+[2025.12.24-02.04.18:806][ 82]LogContentBrowser: Attempting asset rename: BP_bullet1 -> BP_Blasterbullet
+[2025.12.24-02.04.18:829][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2025.12.24-02.04.18:838][ 82]LogContentBrowser: End creating deferred item BP_bullet1
+[2025.12.24-02.04.18:839][ 82]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_20
+[2025.12.24-02.04.22:257][468]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StudentWork/Weapons/Projectiles/BP_Blasterbullet.BP_Blasterbullet
+[2025.12.24-02.04.22:257][468]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_21
+[2025.12.24-02.04.34:030][533]LogStreaming: Display: FlushAsyncLoading(497): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.24-02.04.36:786][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.12.24-02.04.39:724][153]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StudentWork/Weapons/Projectiles/BP_SMGbullet.BP_SMGbullet
+[2025.12.24-02.04.39:724][153]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_22
+[2025.12.24-02.04.51:316][478]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.12.24-02.04.51:316][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.24-02.04.51:399][478]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.12.24-02.05.03:733][865]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.12.24-02.05.06:471][120]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.24-02.05.06:471][120]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.12.24-02.05.06:471][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.24-02.05.06:549][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2025.12.24-02.05.17:192][229]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster.SM_TankTurret_Blaster
+[2025.12.24-02.05.17:197][229]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_23
+[2025.12.24-02.05.17:203][229]LogStreaming: Display: FlushAsyncLoading(498): 1 QueuedPackages, 0 AsyncPackages
+[2025.12.24-02.05.41:351][777]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.24-02.05.41:437][777]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster] ([1] browsable assets)...
+[2025.12.24-02.05.41:442][777]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster.SM_TankTurret_Blaster]
+[2025.12.24-02.05.41:442][777]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster]
+[2025.12.24-02.05.41:453][777]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster
+[2025.12.24-02.05.41:453][777]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/SM_TankTurret_Blaster891069164B40502C624DB2AF5D7D9272.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster.uasset'
+[2025.12.24-02.05.41:468][777]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.473 ms (total: 338.693 ms)
+[2025.12.24-02.05.41:552][777]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.24-02.05.41:552][777]LogContentValidation: Enabled validators:
+[2025.12.24-02.05.41:553][777]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.24-02.05.41:553][777]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.24-02.05.41:553][777]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.24-02.05.41:553][777]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.24-02.05.41:553][777]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.24-02.05.41:553][777]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.24-02.05.41:553][777]AssetCheck: /Game/StudentWork/Weapons/Meshes/SM_TankTurret_Blaster Validating asset
+[2025.12.24-02.05.41:567][777]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.24-02.05.47:630][489]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.12.24-02.05.47:630][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.24-02.05.47:678][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2025.12.24-02.05.56:558][413]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StudentWork/Weapons/Guns/BP_Blaster.BP_Blaster
+[2025.12.24-02.05.56:559][413]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_24
+[2025.12.24-02.06.17:052][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2025.12.24-02.06.24:743][500]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup
+[2025.12.24-02.06.24:744][500]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_25
+[2025.12.24-02.06.27:454][776]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.12.24-02.06.27:454][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.24-02.06.27:499][776]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup
+[2025.12.24-02.06.27:499][776]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_26
+[2025.12.24-02.06.27:882][776]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.24-02.06.47:779][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2025.12.24-02.06.50:068][224]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup_C
+[2025.12.24-02.06.50:068][224]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup_C
+[2025.12.24-02.06.50:070][224]LogActorFactory: Actor Factory spawned Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup as actor: BP_Blaster_Pickup_C /Game/StartMap.StartMap:PersistentLevel.BP_Blaster_Pickup_C_0
+[2025.12.24-02.06.50:071][224]LogActorFactory: Actor Factory spawned Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup as actor: BP_Blaster_Pickup_C /Game/StartMap.StartMap:PersistentLevel.BP_Blaster_Pickup_C_0
+[2025.12.24-02.06.51:539][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2025.12.24-02.06.51:559][391]LogEditorActor: Deleted 0 Actors (0.038 secs)
+[2025.12.24-02.06.51:562][391]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup_C
+[2025.12.24-02.06.51:562][391]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup_C
+[2025.12.24-02.06.51:564][391]LogActorFactory: Actor Factory spawned Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup as actor: BP_Blaster_Pickup_C /Game/StartMap.StartMap:PersistentLevel.BP_Blaster_Pickup_C_1
+[2025.12.24-02.06.51:565][391]LogActorFactory: Actor Factory spawned Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup as actor: BP_Blaster_Pickup_C /Game/StartMap.StartMap:PersistentLevel.BP_Blaster_Pickup_C_1
+[2025.12.24-02.06.57:631][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.24-02.06.57:661][ 56]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StartMap
+[2025.12.24-02.06.57:671][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009263s)
+[2025.12.24-02.06.57:671][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StartMap.StartMap to /Game/UEDPIE_0_StartMap.StartMap (0.009324s)
+[2025.12.24-02.06.57:692][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2025.12.24-02.06.57:696][ 56]LogChaosDD: Creating Chaos Debug Draw Scene for world StartMap
+[2025.12.24-02.06.57:698][ 56]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2025.12.24-02.06.57:699][ 56]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.24-02.06.57:699][ 56]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.24-02.06.57:699][ 56]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.24-02.06.57:699][ 56]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.24-02.06.57:699][ 56]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.24-02.06.57:699][ 56]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.24-02.06.57:715][ 56]LogAudioMixer: Display: Using Audio Hardware Device 1 - 24E3 (AMD High Definition Audio Device)
+[2025.12.24-02.06.57:715][ 56]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.24-02.06.57:715][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.24-02.06.57:715][ 56]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.24-02.06.57:715][ 56]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2025.12.24-02.06.57:715][ 56]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2025.12.24-02.06.57:717][ 56]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2025.12.24-02.06.57:717][ 56]LogInit: FAudioDevice initialized with ID 5.
+[2025.12.24-02.06.57:717][ 56]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2025.12.24-02.06.57:717][ 56]LogAudio: Display: Audio Device (ID: 5) registered with world 'StartMap'.
+[2025.12.24-02.06.57:717][ 56]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.24-02.06.57:719][ 56]LogLoad: Game class is 'MechGameMode_C'
+[2025.12.24-02.06.57:723][ 56]LogWorld: Bringing World /Game/UEDPIE_0_StartMap.StartMap up for play (max tick rate 0) at 2025.12.24-02.06.57
+[2025.12.24-02.06.57:724][ 56]LogWorld: Bringing up level for play took: 0.003250
+[2025.12.24-02.06.57:725][ 56]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2025.12.24-02.06.57:727][ 56]LogBlueprintUserMessages: [BP_bullet_C_1] Hello
+[2025.12.24-02.06.57:727][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_0] Hello
+[2025.12.24-02.06.57:727][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_1] Hello
+[2025.12.24-02.06.57:727][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_2] Hello
+[2025.12.24-02.06.57:728][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_3] Hello
+[2025.12.24-02.06.57:728][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_4] Hello
+[2025.12.24-02.06.57:728][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_5] Hello
+[2025.12.24-02.06.57:728][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_6] Hello
+[2025.12.24-02.06.57:728][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_7] Hello
+[2025.12.24-02.06.57:729][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_8] Hello
+[2025.12.24-02.06.57:729][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_9] Hello
+[2025.12.24-02.06.57:729][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_10] Hello
+[2025.12.24-02.06.57:729][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_11] Hello
+[2025.12.24-02.06.57:729][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_12] Hello
+[2025.12.24-02.06.57:729][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_13] Hello
+[2025.12.24-02.06.57:730][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_14] Hello
+[2025.12.24-02.06.57:730][ 56]LogBlueprintUserMessages: [BP_EnemyProjectile_C_15] Hello
+[2025.12.24-02.06.57:730][ 56]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.12.24-02.06.57:730][ 56]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.12.24-02.06.57:731][ 56]PIE: Server logged in
+[2025.12.24-02.06.57:732][ 56]PIE: Play in editor total start time 0.101 seconds.
+[2025.12.24-02.06.58:619][160]LogBlueprintUserMessages: [BP_bullet_C_0] Hello
+[2025.12.24-02.06.58:629][161]LogBlueprintUserMessages: [BP_EnemyProjectile_C_16] Hello
+[2025.12.24-02.06.58:629][161]LogBlueprintUserMessages: [BP_EnemyProjectile_C_17] Hello
+[2025.12.24-02.06.58:631][161]LogBlueprintUserMessages: [BP_EnemyProjectile_C_18] Hello
+[2025.12.24-02.06.58:631][161]LogBlueprintUserMessages: [BP_EnemyProjectile_C_19] Hello
+[2025.12.24-02.06.59:128][221]LogBlueprintUserMessages: [BP_bullet_C_2] Hello
+[2025.12.24-02.06.59:630][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_20] Hello
+[2025.12.24-02.06.59:630][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_21] Hello
+[2025.12.24-02.06.59:630][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_22] Hello
+[2025.12.24-02.06.59:631][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_23] Hello
+[2025.12.24-02.06.59:631][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_24] Hello
+[2025.12.24-02.06.59:631][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_25] Hello
+[2025.12.24-02.06.59:631][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_26] Hello
+[2025.12.24-02.06.59:632][281]LogBlueprintUserMessages: [BP_EnemyProjectile_C_27] Hello
+[2025.12.24-02.07.00:629][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_28] Hello
+[2025.12.24-02.07.00:629][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_29] Hello
+[2025.12.24-02.07.00:631][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_30] Hello
+[2025.12.24-02.07.00:631][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_31] Hello
+[2025.12.24-02.07.00:631][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_32] Hello
+[2025.12.24-02.07.00:632][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_33] Hello
+[2025.12.24-02.07.00:632][401]LogBlueprintUserMessages: [BP_EnemyProjectile_C_34] Hello
+[2025.12.24-02.07.00:946][439]LogBlueprintUserMessages: [BP_EnemyProjectile_C_35] Hello
+[2025.12.24-02.07.01:629][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_36] Hello
+[2025.12.24-02.07.01:631][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_37] Hello
+[2025.12.24-02.07.01:631][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_38] Hello
+[2025.12.24-02.07.01:631][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_39] Hello
+[2025.12.24-02.07.01:632][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_40] Hello
+[2025.12.24-02.07.01:632][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_41] Hello
+[2025.12.24-02.07.01:632][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_42] Hello
+[2025.12.24-02.07.01:633][521]LogBlueprintUserMessages: [BP_EnemyProjectile_C_43] Hello
+[2025.12.24-02.07.02:055][572]LogBlueprintUserMessages: [BP_Sniperbullet_C_0] Hello
+[2025.12.24-02.07.02:631][641]LogBlueprintUserMessages: [BP_EnemyProjectile_C_44] Hello
+[2025.12.24-02.07.02:631][641]LogBlueprintUserMessages: [BP_EnemyProjectile_C_45] Hello
+[2025.12.24-02.07.02:632][641]LogBlueprintUserMessages: [BP_EnemyProjectile_C_46] Hello
+[2025.12.24-02.07.02:632][641]LogBlueprintUserMessages: [BP_EnemyProjectile_C_47] Hello
+[2025.12.24-02.07.03:129][701]LogBlueprintUserMessages: [BP_EnemyProjectile_C_48] Hello
+[2025.12.24-02.07.03:563][753]LogBlueprintUserMessages: [BP_Sniperbullet_C_1] Hello
+[2025.12.24-02.07.03:629][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_49] Hello
+[2025.12.24-02.07.03:631][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_50] Hello
+[2025.12.24-02.07.03:631][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_51] Hello
+[2025.12.24-02.07.03:631][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_52] Hello
+[2025.12.24-02.07.03:632][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_53] Hello
+[2025.12.24-02.07.03:632][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_54] Hello
+[2025.12.24-02.07.03:633][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_55] Hello
+[2025.12.24-02.07.03:633][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_56] Hello
+[2025.12.24-02.07.03:633][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_57] Hello
+[2025.12.24-02.07.03:633][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_58] Hello
+[2025.12.24-02.07.03:634][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_59] Hello
+[2025.12.24-02.07.03:634][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_60] Hello
+[2025.12.24-02.07.03:634][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_61] Hello
+[2025.12.24-02.07.03:635][761]LogBlueprintUserMessages: [BP_EnemyProjectile_C_62] Hello
+[2025.12.24-02.07.04:274][838]LogBlueprintUserMessages: [BP_EnemyProjectile_C_63] Hello
+[2025.12.24-02.07.04:633][881]LogBlueprintUserMessages: [BP_EnemyProjectile_C_64] Hello
+[2025.12.24-02.07.04:633][881]LogBlueprintUserMessages: [BP_EnemyProjectile_C_65] Hello
+[2025.12.24-02.07.04:634][881]LogBlueprintUserMessages: [BP_EnemyProjectile_C_66] Hello
+[2025.12.24-02.07.04:634][881]LogBlueprintUserMessages: [BP_EnemyProjectile_C_67] Hello
+[2025.12.24-02.07.05:632][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_68] Hello
+[2025.12.24-02.07.05:632][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_69] Hello
+[2025.12.24-02.07.05:633][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_70] Hello
+[2025.12.24-02.07.05:633][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_71] Hello
+[2025.12.24-02.07.05:634][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_72] Hello
+[2025.12.24-02.07.05:634][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_73] Hello
+[2025.12.24-02.07.05:634][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_74] Hello
+[2025.12.24-02.07.05:635][  1]LogBlueprintUserMessages: [BP_EnemyProjectile_C_75] Hello
+[2025.12.24-02.07.05:874][ 30]LogBlueprintUserMessages: [BP_SMGbullet_C_0] Hello
+[2025.12.24-02.07.05:983][ 43]LogBlueprintUserMessages: [BP_SMGbullet_C_1] Hello
+[2025.12.24-02.07.06:091][ 56]LogBlueprintUserMessages: [BP_SMGbullet_C_2] Hello
+[2025.12.24-02.07.06:198][ 69]LogBlueprintUserMessages: [BP_SMGbullet_C_3] Hello
+[2025.12.24-02.07.06:307][ 82]LogBlueprintUserMessages: [BP_SMGbullet_C_4] Hello
+[2025.12.24-02.07.06:415][ 95]LogBlueprintUserMessages: [BP_SMGbullet_C_5] Hello
+[2025.12.24-02.07.06:524][108]LogBlueprintUserMessages: [BP_SMGbullet_C_6] Hello
+[2025.12.24-02.07.06:632][121]LogBlueprintUserMessages: [BP_SMGbullet_C_7] Hello
+[2025.12.24-02.07.06:634][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_76] Hello
+[2025.12.24-02.07.06:634][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_77] Hello
+[2025.12.24-02.07.06:635][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_78] Hello
+[2025.12.24-02.07.06:635][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_79] Hello
+[2025.12.24-02.07.06:636][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_80] Hello
+[2025.12.24-02.07.06:636][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_81] Hello
+[2025.12.24-02.07.06:636][121]LogBlueprintUserMessages: [BP_EnemyProjectile_C_82] Hello
+[2025.12.24-02.07.06:742][134]LogBlueprintUserMessages: [BP_SMGbullet_C_8] Hello
+[2025.12.24-02.07.06:849][147]LogBlueprintUserMessages: [BP_SMGbullet_C_9] Hello
+[2025.12.24-02.07.06:959][160]LogBlueprintUserMessages: [BP_SMGbullet_C_10] Hello
+[2025.12.24-02.07.07:066][173]LogBlueprintUserMessages: [BP_SMGbullet_C_11] Hello
+[2025.12.24-02.07.07:175][186]LogBlueprintUserMessages: [BP_SMGbullet_C_12] Hello
+[2025.12.24-02.07.07:284][199]LogBlueprintUserMessages: [BP_SMGbullet_C_13] Hello
+[2025.12.24-02.07.07:593][236]LogBlueprintUserMessages: [BP_EnemyProjectile_C_83] Hello
+[2025.12.24-02.07.07:626][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_84] Hello
+[2025.12.24-02.07.07:626][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_85] Hello
+[2025.12.24-02.07.07:627][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_86] Hello
+[2025.12.24-02.07.07:628][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_87] Hello
+[2025.12.24-02.07.07:628][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_88] Hello
+[2025.12.24-02.07.07:628][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_89] Hello
+[2025.12.24-02.07.07:629][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_90] Hello
+[2025.12.24-02.07.07:629][240]LogBlueprintUserMessages: [BP_EnemyProjectile_C_91] Hello
+[2025.12.24-02.07.08:627][360]LogBlueprintUserMessages: [BP_EnemyProjectile_C_92] Hello
+[2025.12.24-02.07.08:627][360]LogBlueprintUserMessages: [BP_EnemyProjectile_C_93] Hello
+[2025.12.24-02.07.08:627][360]LogBlueprintUserMessages: [BP_EnemyProjectile_C_94] Hello
+[2025.12.24-02.07.08:627][360]LogBlueprintUserMessages: [BP_EnemyProjectile_C_95] Hello
+[2025.12.24-02.07.08:629][360]LogBlueprintUserMessages: [BP_EnemyProjectile_C_96] Hello
+[2025.12.24-02.07.09:069][413]LogBlueprintUserMessages: [BP_Blasterbullet_C_0] Hello
+[2025.12.24-02.07.09:627][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_97] Hello
+[2025.12.24-02.07.09:628][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_98] Hello
+[2025.12.24-02.07.09:628][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_99] Hello
+[2025.12.24-02.07.09:628][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_100] Hello
+[2025.12.24-02.07.09:628][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_101] Hello
+[2025.12.24-02.07.09:628][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_102] Hello
+[2025.12.24-02.07.09:629][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_103] Hello
+[2025.12.24-02.07.09:629][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_104] Hello
+[2025.12.24-02.07.09:629][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_105] Hello
+[2025.12.24-02.07.09:629][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_106] Hello
+[2025.12.24-02.07.09:631][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_107] Hello
+[2025.12.24-02.07.09:631][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_108] Hello
+[2025.12.24-02.07.09:631][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_109] Hello
+[2025.12.24-02.07.09:632][480]LogBlueprintUserMessages: [BP_EnemyProjectile_C_110] Hello
+[2025.12.24-02.07.10:078][534]LogBlueprintUserMessages: [BP_Blasterbullet_C_1] Hello
+[2025.12.24-02.07.10:628][600]LogBlueprintUserMessages: [BP_EnemyProjectile_C_111] Hello
+[2025.12.24-02.07.10:630][600]LogBlueprintUserMessages: [BP_EnemyProjectile_C_112] Hello
+[2025.12.24-02.07.10:630][600]LogBlueprintUserMessages: [BP_EnemyProjectile_C_113] Hello
+[2025.12.24-02.07.10:630][600]LogBlueprintUserMessages: [BP_EnemyProjectile_C_114] Hello
+[2025.12.24-02.07.10:912][634]LogBlueprintUserMessages: [BP_EnemyProjectile_C_115] Hello
+[2025.12.24-02.07.11:087][655]LogBlueprintUserMessages: [BP_Blasterbullet_C_2] Hello
+[2025.12.24-02.07.11:629][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_116] Hello
+[2025.12.24-02.07.11:629][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_117] Hello
+[2025.12.24-02.07.11:630][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_118] Hello
+[2025.12.24-02.07.11:630][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_119] Hello
+[2025.12.24-02.07.11:631][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_120] Hello
+[2025.12.24-02.07.11:631][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_121] Hello
+[2025.12.24-02.07.11:631][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_122] Hello
+[2025.12.24-02.07.11:632][720]LogBlueprintUserMessages: [BP_EnemyProjectile_C_123] Hello
+[2025.12.24-02.07.11:692][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.24-02.07.11:692][724]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StartMap
+[2025.12.24-02.07.11:692][724]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2025.12.24-02.07.11:694][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.24-02.07.11:695][724]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.24-02.07.11:700][724]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.24-02.07.11:717][724]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.12.24-02.07.11:717][724]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2025.12.24-02.07.11:717][724]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2025.12.24-02.07.11:719][724]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2025.12.24-02.07.11:723][724]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.24-02.07.11:726][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2025.12.24-02.07.11:782][725]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2025.12.24-02.08.02:412][359]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.12.24-02.08.02:447][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StartMap_Auto1
+[2025.12.24-02.08.02:450][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/StartMap_Auto13416C800497E95DD87E9228B4D60EC48.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StartMap_Auto1.umap'
+[2025.12.24-02.08.02:460][359]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/StartMap' took 0.069
+[2025.12.24-02.08.02:460][359]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.069
+[2025.12.24-02.08.02:460][359]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_PlayerCharacter] ([2] browsable assets)...
+[2025.12.24-02.08.02:517][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PlayerCharacter.BP_PlayerCharacter]
+[2025.12.24-02.08.02:517][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerCharacter]
+[2025.12.24-02.08.02:550][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto1
+[2025.12.24-02.08.02:555][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_PlayerCharacter_Auto1595DF26340CBC36BDC40CF9323E01779.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/Blueprints/BP_PlayerCharacter_Auto1.uasset'
+[2025.12.24-02.08.02:565][359]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/StudentWork/Weapons/Projectiles/BP_Sniperbullet] ([2] browsable assets)...
+[2025.12.24-02.08.02:580][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StudentWork/Weapons/Projectiles/BP_Sniperbullet.BP_Sniperbullet]
+[2025.12.24-02.08.02:580][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Projectiles/BP_Sniperbullet]
+[2025.12.24-02.08.02:590][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StudentWork/Weapons/Projectiles/BP_Sniperbullet_Auto1
+[2025.12.24-02.08.02:590][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Sniperbullet_Auto1B44EF694468362D824DDDE90C5831D7C.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StudentWork/Weapons/Projectiles/BP_Sniperbullet_Auto1.uasset'
+[2025.12.24-02.08.02:598][359]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StudentWork/Weapons/Guns/BP_Sniper] ([2] browsable assets)...
+[2025.12.24-02.08.02:598][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Guns/BP_Sniper]
+[2025.12.24-02.08.02:606][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StudentWork/Weapons/Guns/BP_Sniper_Auto1
+[2025.12.24-02.08.02:606][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Sniper_Auto167DF3147436C47AE4E28FD8F423B28F0.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StudentWork/Weapons/Guns/BP_Sniper_Auto1.uasset'
+[2025.12.24-02.08.02:610][359]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/StudentWork/Weapons/PickUps/BP_Sniper_Pickup] ([2] browsable assets)...
+[2025.12.24-02.08.02:618][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StudentWork/Weapons/PickUps/BP_Sniper_Pickup.BP_Sniper_Pickup]
+[2025.12.24-02.08.02:618][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/PickUps/BP_Sniper_Pickup]
+[2025.12.24-02.08.02:625][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StudentWork/Weapons/PickUps/BP_Sniper_Pickup_Auto1
+[2025.12.24-02.08.02:625][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Sniper_Pickup_Auto136AE73ED4B615A42997892B11BD5D158.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StudentWork/Weapons/PickUps/BP_Sniper_Pickup_Auto1.uasset'
+[2025.12.24-02.08.02:634][359]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StudentWork/Weapons/Guns/BP_Blaster] ([2] browsable assets)...
+[2025.12.24-02.08.02:634][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Guns/BP_Blaster]
+[2025.12.24-02.08.02:642][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StudentWork/Weapons/Guns/BP_Blaster_Auto1
+[2025.12.24-02.08.02:642][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Blaster_Auto1A58B1E4640EEA331ACFBFC8A5062D96E.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StudentWork/Weapons/Guns/BP_Blaster_Auto1.uasset'
+[2025.12.24-02.08.02:651][359]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup] ([2] browsable assets)...
+[2025.12.24-02.08.02:656][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup.BP_Blaster_Pickup]
+[2025.12.24-02.08.02:656][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup]
+[2025.12.24-02.08.02:664][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup_Auto1
+[2025.12.24-02.08.02:664][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Blaster_Pickup_Auto1A102D7C64FE3A129822EBDB1384701F7.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StudentWork/Weapons/PickUps/BP_Blaster_Pickup_Auto1.uasset'
+[2025.12.24-02.08.02:669][359]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/StudentWork/Weapons/Projectiles/BP_Blasterbullet] ([2] browsable assets)...
+[2025.12.24-02.08.02:674][359]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StudentWork/Weapons/Projectiles/BP_Blasterbullet.BP_Blasterbullet]
+[2025.12.24-02.08.02:674][359]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Projectiles/BP_Blasterbullet]
+[2025.12.24-02.08.02:682][359]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/StudentWork/Weapons/Projectiles/BP_Blasterbullet_Auto1
+[2025.12.24-02.08.02:682][359]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Blasterbullet_Auto157D778EC457952315228ED827CD92F21.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/Autosaves/Game/StudentWork/Weapons/Projectiles/BP_Blasterbullet_Auto1.uasset'
+[2025.12.24-02.08.02:688][359]LogFileHelpers: Auto-saving content packages took 0.228
+[2025.12.24-02.08.30:317][625]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.24-02.08.30:390][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StartMap" FILE="../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StartMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.12.24-02.08.30:454][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2025.12.24-02.08.30:484][625]LogSavePackage: Moving output files for package: /Game/StartMap
+[2025.12.24-02.08.30:489][625]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/StartMapC0CB880541E20B37D301FC9006F1E867.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StartMap.umap'
+[2025.12.24-02.08.30:522][625]LogFileHelpers: Saving map 'StartMap' took 0.132
+[2025.12.24-02.08.30:532][625]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.152 ms (total: 553.846 ms)
+[2025.12.24-02.08.30:638][625]LogContentValidation: Display: Starting to validate 1 assets
+[2025.12.24-02.08.30:638][625]LogContentValidation: Enabled validators:
+[2025.12.24-02.08.30:639][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.24-02.08.30:639][625]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.24-02.08.30:639][625]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.24-02.08.30:639][625]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.24-02.08.30:639][625]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.24-02.08.30:639][625]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.24-02.08.30:639][625]AssetCheck: /Game/StartMap Validating asset
