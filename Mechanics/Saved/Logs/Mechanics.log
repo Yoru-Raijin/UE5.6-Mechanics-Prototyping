@@ -23351,3 +23351,781 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.12.24-23.56.40:168][744]LogEOSSDK: Warning: LogHttp: 000001D099909600: libcurl info message cache 3 (Closing connection)
 [2025.12.24-23.56.40:168][744]LogEOSSDK: Warning: LogHttp: 000001D099909600: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
 [2025.12.24-23.56.40:168][745]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B966E0910-4CAA-ABB4-CC93-D68F088D0DF7%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=308DC1CD437632B73C8B9D8F19B44537
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: request failed, libcurl error: 0 (No error)
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: libcurl info message cache 0 (Found bundle for host: 0x1ce62880a50 [serially])
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: libcurl info message cache 1 (Re-using existing connection with host api.epicgames.dev)
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: libcurl info message cache 3 (Closing connection)
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: 000001CF3D91DE00: libcurl info message cache 4 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.12.24-23.58.49:339][680]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=308DC1CD437632B73C8B9D8F19B44537
+[2025.12.24-23.58.49:339][681]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.12.24-23.59.40:696][101]LogEOSSDK: Warning: LogHttp: 000001D08473D800: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B966E0910-4CAA-ABB4-CC93-D68F088D0DF7%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.12.24-23.59.40:696][101]LogEOSSDK: Warning: LogHttp: 000001D08473D800: request failed, libcurl error: 0 (No error)
+[2025.12.24-23.59.40:696][101]LogEOSSDK: Warning: LogHttp: 000001D08473D800: libcurl info message cache 0 (  Trying 100.49.228.123:443...)
+[2025.12.24-23.59.40:696][101]LogEOSSDK: Warning: LogHttp: 000001D08473D800: libcurl info message cache 1 (connect to 100.49.228.123 port 443 failed: Timed out)
+[2025.12.24-23.59.40:696][102]LogEOSSDK: Warning: LogHttp: 000001D08473D800: libcurl info message cache 2 (  Trying 54.146.38.154:443...)
+[2025.12.24-23.59.40:696][102]LogEOSSDK: Warning: LogHttp: 000001D08473D800: libcurl info message cache 3 (Closing connection)
+[2025.12.24-23.59.41:030][102]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B966E0910-4CAA-ABB4-CC93-D68F088D0DF7%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.17.0-41373641%20-%20%2B%2BEOSSDK%2BRelease-1.17.0-CL-41373641&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2025.12.25-00.02.12:718][557]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 23657.078125
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: invalid HTTP response code received. URL: https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=308DC1CD437632B73C8B9D8F19B44537, HTTP code: 0, content length: 0, actual payload size: 0
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: request failed, libcurl error: 35 (SSL connect error)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 0 (Found bundle for host: 0x1ce62880a20 [serially])
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 2 (  Trying 100.29.241.1:443...)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 3 (Connected to api.epicgames.dev (100.29.241.1) port 443)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 4 (ALPN: curl offers http/1.1)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 5 (SSL reusing session ID)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 7 (Recv failure: Connection was reset)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 8 (OpenSSL SSL_connect: Connection was reset in connection to api.epicgames.dev:443 )
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 9 (Closing connection)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: 000001D08473D200: libcurl info message cache 11 (Recv failure: Connection was reset)
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=308DC1CD437632B73C8B9D8F19B44537
+[2025.12.25-00.02.47:058][660]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.12.25-00.02.47:392][661]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.25-00.02.47:392][661]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 23691.449219, Update Interval: 342.553162
+[2025.12.25-00.05.04:287][588]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.12.25-00.05.04:287][588]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_StartMap
+[2025.12.25-00.05.04:297][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010190s)
+[2025.12.25-00.05.04:297][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StartMap.StartMap to /Game/UEDPIE_0_StartMap.StartMap (0.010236s)
+[2025.12.25-00.05.04:321][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.12.25-00.05.04:327][588]LogChaosDD: Creating Chaos Debug Draw Scene for world StartMap
+[2025.12.25-00.05.04:329][588]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2025.12.25-00.05.04:330][588]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.12.25-00.05.04:330][588]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.12.25-00.05.04:330][588]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.12.25-00.05.04:330][588]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.12.25-00.05.04:330][588]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.12.25-00.05.04:330][588]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.12.25-00.05.04:331][588]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.12.25-00.05.04:354][588]LogAudioMixer: Display: Using Audio Hardware Device 1 - 24E3 (AMD High Definition Audio Device)
+[2025.12.25-00.05.04:354][588]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.12.25-00.05.04:354][588]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.12.25-00.05.04:354][588]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.12.25-00.05.04:355][588]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2025.12.25-00.05.04:355][588]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2025.12.25-00.05.04:356][588]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2025.12.25-00.05.04:356][588]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2025.12.25-00.05.04:357][588]LogInit: FAudioDevice initialized with ID 78.
+[2025.12.25-00.05.04:357][588]LogAudio: Display: Audio Device (ID: 78) registered with world 'StartMap'.
+[2025.12.25-00.05.04:357][588]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 78
+[2025.12.25-00.05.04:361][588]LogLoad: Game class is 'MechGameMode_C'
+[2025.12.25-00.05.04:364][588]LogWorld: Bringing World /Game/UEDPIE_0_StartMap.StartMap up for play (max tick rate 60) at 2025.12.25-00.05.04
+[2025.12.25-00.05.04:365][588]LogWorld: Bringing up level for play took: 0.003899
+[2025.12.25-00.05.04:366][588]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2025.12.25-00.05.04:368][588]LogBlueprintUserMessages: [BP_bullet_C_1] Hello
+[2025.12.25-00.05.04:368][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_0] Hello
+[2025.12.25-00.05.04:368][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_1] Hello
+[2025.12.25-00.05.04:369][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_2] Hello
+[2025.12.25-00.05.04:369][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_3] Hello
+[2025.12.25-00.05.04:369][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_4] Hello
+[2025.12.25-00.05.04:369][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_5] Hello
+[2025.12.25-00.05.04:370][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_6] Hello
+[2025.12.25-00.05.04:370][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_7] Hello
+[2025.12.25-00.05.04:370][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_8] Hello
+[2025.12.25-00.05.04:370][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_9] Hello
+[2025.12.25-00.05.04:370][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_10] Hello
+[2025.12.25-00.05.04:371][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_11] Hello
+[2025.12.25-00.05.04:371][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_12] Hello
+[2025.12.25-00.05.04:371][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_13] Hello
+[2025.12.25-00.05.04:371][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_14] Hello
+[2025.12.25-00.05.04:372][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_15] Hello
+[2025.12.25-00.05.04:372][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_16] Hello
+[2025.12.25-00.05.04:372][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_17] Hello
+[2025.12.25-00.05.04:372][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_18] Hello
+[2025.12.25-00.05.04:373][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_19] Hello
+[2025.12.25-00.05.04:373][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_20] Hello
+[2025.12.25-00.05.04:373][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_21] Hello
+[2025.12.25-00.05.04:373][588]LogBlueprintUserMessages: [BP_EnemyProjectile_C_22] Hello
+[2025.12.25-00.05.04:374][588]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2025.12.25-00.05.04:374][588]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2025.12.25-00.05.04:375][588]PIE: Server logged in
+[2025.12.25-00.05.04:377][588]PIE: Play in editor total start time 0.09 seconds.
+[2025.12.25-00.05.05:295][642]LogBlueprintUserMessages: [BP_EnemyProjectile_C_23] Hello
+[2025.12.25-00.05.05:295][642]LogBlueprintUserMessages: [BP_EnemyProjectile_C_24] Hello
+[2025.12.25-00.05.05:296][642]LogBlueprintUserMessages: [BP_EnemyProjectile_C_25] Hello
+[2025.12.25-00.05.05:296][642]LogBlueprintUserMessages: [BP_EnemyProjectile_C_26] Hello
+[2025.12.25-00.05.05:595][660]LogBlueprintUserMessages: [BP_bullet_C_0] Hello
+[2025.12.25-00.05.06:296][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_27] Hello
+[2025.12.25-00.05.06:296][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_28] Hello
+[2025.12.25-00.05.06:297][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_29] Hello
+[2025.12.25-00.05.06:297][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_30] Hello
+[2025.12.25-00.05.06:298][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_31] Hello
+[2025.12.25-00.05.06:298][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_32] Hello
+[2025.12.25-00.05.06:299][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_33] Hello
+[2025.12.25-00.05.06:299][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_34] Hello
+[2025.12.25-00.05.06:300][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_35] Hello
+[2025.12.25-00.05.06:300][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_36] Hello
+[2025.12.25-00.05.06:300][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_37] Hello
+[2025.12.25-00.05.06:301][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_38] Hello
+[2025.12.25-00.05.06:301][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_39] Hello
+[2025.12.25-00.05.06:301][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_40] Hello
+[2025.12.25-00.05.06:302][702]LogBlueprintUserMessages: [BP_EnemyProjectile_C_41] Hello
+[2025.12.25-00.05.06:462][712]LogBlueprintUserMessages: [BP_bullet_C_2] Hello
+[2025.12.25-00.05.07:294][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_42] Hello
+[2025.12.25-00.05.07:295][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_43] Hello
+[2025.12.25-00.05.07:295][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_44] Hello
+[2025.12.25-00.05.07:296][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_45] Hello
+[2025.12.25-00.05.07:296][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_46] Hello
+[2025.12.25-00.05.07:296][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_47] Hello
+[2025.12.25-00.05.07:296][762]LogBlueprintUserMessages: [BP_EnemyProjectile_C_48] Hello
+[2025.12.25-00.05.07:612][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_49] Hello
+[2025.12.25-00.05.08:295][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_50] Hello
+[2025.12.25-00.05.08:296][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_51] Hello
+[2025.12.25-00.05.08:296][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_52] Hello
+[2025.12.25-00.05.08:297][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_53] Hello
+[2025.12.25-00.05.08:297][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_54] Hello
+[2025.12.25-00.05.08:297][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_55] Hello
+[2025.12.25-00.05.08:298][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_56] Hello
+[2025.12.25-00.05.08:299][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_57] Hello
+[2025.12.25-00.05.08:299][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_58] Hello
+[2025.12.25-00.05.08:299][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_59] Hello
+[2025.12.25-00.05.08:300][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_60] Hello
+[2025.12.25-00.05.08:300][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_61] Hello
+[2025.12.25-00.05.08:300][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_62] Hello
+[2025.12.25-00.05.08:301][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_63] Hello
+[2025.12.25-00.05.08:301][822]LogBlueprintUserMessages: [BP_EnemyProjectile_C_64] Hello
+[2025.12.25-00.05.09:296][882]LogBlueprintUserMessages: [BP_EnemyProjectile_C_65] Hello
+[2025.12.25-00.05.09:297][882]LogBlueprintUserMessages: [BP_EnemyProjectile_C_66] Hello
+[2025.12.25-00.05.09:297][882]LogBlueprintUserMessages: [BP_EnemyProjectile_C_67] Hello
+[2025.12.25-00.05.09:297][882]LogBlueprintUserMessages: [BP_EnemyProjectile_C_68] Hello
+[2025.12.25-00.05.09:797][912]LogBlueprintUserMessages: [BP_EnemyProjectile_C_69] Hello
+[2025.12.25-00.05.10:296][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_70] Hello
+[2025.12.25-00.05.10:297][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_71] Hello
+[2025.12.25-00.05.10:297][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_72] Hello
+[2025.12.25-00.05.10:297][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_73] Hello
+[2025.12.25-00.05.10:298][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_74] Hello
+[2025.12.25-00.05.10:298][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_75] Hello
+[2025.12.25-00.05.10:298][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_76] Hello
+[2025.12.25-00.05.10:299][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_77] Hello
+[2025.12.25-00.05.10:299][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_78] Hello
+[2025.12.25-00.05.10:300][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_79] Hello
+[2025.12.25-00.05.10:300][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_80] Hello
+[2025.12.25-00.05.10:300][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_81] Hello
+[2025.12.25-00.05.10:301][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_82] Hello
+[2025.12.25-00.05.10:301][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_83] Hello
+[2025.12.25-00.05.10:301][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_84] Hello
+[2025.12.25-00.05.10:302][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_85] Hello
+[2025.12.25-00.05.10:302][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_86] Hello
+[2025.12.25-00.05.10:303][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_87] Hello
+[2025.12.25-00.05.10:303][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_88] Hello
+[2025.12.25-00.05.10:303][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_89] Hello
+[2025.12.25-00.05.10:304][942]LogBlueprintUserMessages: [BP_EnemyProjectile_C_90] Hello
+[2025.12.25-00.05.10:930][980]LogBlueprintUserMessages: [BP_EnemyProjectile_C_91] Hello
+[2025.12.25-00.05.11:096][990]LogBlueprintUserMessages: [BP_Blasterbullet_C_0] Hello
+[2025.12.25-00.05.11:297][  2]LogBlueprintUserMessages: [BP_EnemyProjectile_C_92] Hello
+[2025.12.25-00.05.11:297][  2]LogBlueprintUserMessages: [BP_EnemyProjectile_C_93] Hello
+[2025.12.25-00.05.11:298][  2]LogBlueprintUserMessages: [BP_EnemyProjectile_C_94] Hello
+[2025.12.25-00.05.11:298][  2]LogBlueprintUserMessages: [BP_EnemyProjectile_C_95] Hello
+[2025.12.25-00.05.12:297][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_96] Hello
+[2025.12.25-00.05.12:298][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_97] Hello
+[2025.12.25-00.05.12:299][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_98] Hello
+[2025.12.25-00.05.12:299][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_99] Hello
+[2025.12.25-00.05.12:299][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_100] Hello
+[2025.12.25-00.05.12:299][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_101] Hello
+[2025.12.25-00.05.12:300][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_102] Hello
+[2025.12.25-00.05.12:300][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_103] Hello
+[2025.12.25-00.05.12:301][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_104] Hello
+[2025.12.25-00.05.12:301][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_105] Hello
+[2025.12.25-00.05.12:301][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_106] Hello
+[2025.12.25-00.05.12:302][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_107] Hello
+[2025.12.25-00.05.12:302][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_108] Hello
+[2025.12.25-00.05.12:303][ 62]LogBlueprintUserMessages: [BP_EnemyProjectile_C_109] Hello
+[2025.12.25-00.05.12:530][ 76]LogBlueprintUserMessages: [BP_Blasterbullet_C_1] Hello
+[2025.12.25-00.05.13:296][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_110] Hello
+[2025.12.25-00.05.13:297][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_111] Hello
+[2025.12.25-00.05.13:297][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_112] Hello
+[2025.12.25-00.05.13:297][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_113] Hello
+[2025.12.25-00.05.13:298][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_114] Hello
+[2025.12.25-00.05.13:298][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_115] Hello
+[2025.12.25-00.05.13:299][122]LogBlueprintUserMessages: [BP_EnemyProjectile_C_116] Hello
+[2025.12.25-00.05.14:254][179]LogBlueprintUserMessages: [BP_EnemyProjectile_C_117] Hello
+[2025.12.25-00.05.14:288][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_118] Hello
+[2025.12.25-00.05.14:288][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_119] Hello
+[2025.12.25-00.05.14:289][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_120] Hello
+[2025.12.25-00.05.14:290][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_121] Hello
+[2025.12.25-00.05.14:290][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_122] Hello
+[2025.12.25-00.05.14:291][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_123] Hello
+[2025.12.25-00.05.14:291][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_124] Hello
+[2025.12.25-00.05.14:292][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_125] Hello
+[2025.12.25-00.05.14:292][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_126] Hello
+[2025.12.25-00.05.14:292][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_127] Hello
+[2025.12.25-00.05.14:293][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_128] Hello
+[2025.12.25-00.05.14:293][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_129] Hello
+[2025.12.25-00.05.14:294][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_130] Hello
+[2025.12.25-00.05.14:294][181]LogBlueprintUserMessages: [BP_EnemyProjectile_C_131] Hello
+[2025.12.25-00.05.14:804][212]LogBlueprintUserMessages: [BP_SMGbullet_C_0] Hello
+[2025.12.25-00.05.14:920][219]LogBlueprintUserMessages: [BP_SMGbullet_C_1] Hello
+[2025.12.25-00.05.15:036][226]LogBlueprintUserMessages: [BP_SMGbullet_C_2] Hello
+[2025.12.25-00.05.15:153][233]LogBlueprintUserMessages: [BP_SMGbullet_C_3] Hello
+[2025.12.25-00.05.15:270][240]LogBlueprintUserMessages: [BP_SMGbullet_C_4] Hello
+[2025.12.25-00.05.15:288][241]LogBlueprintUserMessages: [BP_EnemyProjectile_C_132] Hello
+[2025.12.25-00.05.15:289][241]LogBlueprintUserMessages: [BP_EnemyProjectile_C_133] Hello
+[2025.12.25-00.05.15:290][241]LogBlueprintUserMessages: [BP_EnemyProjectile_C_134] Hello
+[2025.12.25-00.05.15:290][241]LogBlueprintUserMessages: [BP_EnemyProjectile_C_135] Hello
+[2025.12.25-00.05.15:290][241]LogBlueprintUserMessages: [BP_EnemyProjectile_C_136] Hello
+[2025.12.25-00.05.15:387][247]LogBlueprintUserMessages: [BP_SMGbullet_C_5] Hello
+[2025.12.25-00.05.15:503][254]LogBlueprintUserMessages: [BP_SMGbullet_C_6] Hello
+[2025.12.25-00.05.15:619][261]LogBlueprintUserMessages: [BP_SMGbullet_C_7] Hello
+[2025.12.25-00.05.15:737][268]LogBlueprintUserMessages: [BP_SMGbullet_C_8] Hello
+[2025.12.25-00.05.15:854][275]LogBlueprintUserMessages: [BP_SMGbullet_C_9] Hello
+[2025.12.25-00.05.15:970][282]LogBlueprintUserMessages: [BP_SMGbullet_C_10] Hello
+[2025.12.25-00.05.16:087][289]LogBlueprintUserMessages: [BP_SMGbullet_C_11] Hello
+[2025.12.25-00.05.16:204][296]LogBlueprintUserMessages: [BP_SMGbullet_C_12] Hello
+[2025.12.25-00.05.16:288][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_137] Hello
+[2025.12.25-00.05.16:289][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_138] Hello
+[2025.12.25-00.05.16:289][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_139] Hello
+[2025.12.25-00.05.16:290][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_140] Hello
+[2025.12.25-00.05.16:290][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_141] Hello
+[2025.12.25-00.05.16:290][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_142] Hello
+[2025.12.25-00.05.16:291][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_143] Hello
+[2025.12.25-00.05.16:291][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_144] Hello
+[2025.12.25-00.05.16:292][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_145] Hello
+[2025.12.25-00.05.16:292][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_146] Hello
+[2025.12.25-00.05.16:292][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_147] Hello
+[2025.12.25-00.05.16:293][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_148] Hello
+[2025.12.25-00.05.16:293][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_149] Hello
+[2025.12.25-00.05.16:293][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_150] Hello
+[2025.12.25-00.05.16:294][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_151] Hello
+[2025.12.25-00.05.16:294][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_152] Hello
+[2025.12.25-00.05.16:295][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_153] Hello
+[2025.12.25-00.05.16:295][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_154] Hello
+[2025.12.25-00.05.16:295][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_155] Hello
+[2025.12.25-00.05.16:296][301]LogBlueprintUserMessages: [BP_EnemyProjectile_C_156] Hello
+[2025.12.25-00.05.16:320][303]LogBlueprintUserMessages: [BP_SMGbullet_C_13] Hello
+[2025.12.25-00.05.16:437][310]LogBlueprintUserMessages: [BP_SMGbullet_C_14] Hello
+[2025.12.25-00.05.16:554][317]LogBlueprintUserMessages: [BP_SMGbullet_C_15] Hello
+[2025.12.25-00.05.16:670][324]LogBlueprintUserMessages: [BP_SMGbullet_C_16] Hello
+[2025.12.25-00.05.16:786][331]LogBlueprintUserMessages: [BP_SMGbullet_C_17] Hello
+[2025.12.25-00.05.16:903][338]LogBlueprintUserMessages: [BP_SMGbullet_C_18] Hello
+[2025.12.25-00.05.17:020][345]LogBlueprintUserMessages: [BP_SMGbullet_C_19] Hello
+[2025.12.25-00.05.17:136][352]LogBlueprintUserMessages: [BP_SMGbullet_C_20] Hello
+[2025.12.25-00.05.17:288][361]LogBlueprintUserMessages: [BP_EnemyProjectile_C_157] Hello
+[2025.12.25-00.05.17:289][361]LogBlueprintUserMessages: [BP_EnemyProjectile_C_158] Hello
+[2025.12.25-00.05.17:289][361]LogBlueprintUserMessages: [BP_EnemyProjectile_C_159] Hello
+[2025.12.25-00.05.17:290][361]LogBlueprintUserMessages: [BP_EnemyProjectile_C_160] Hello
+[2025.12.25-00.05.17:572][378]LogBlueprintUserMessages: [BP_EnemyProjectile_C_161] Hello
+[2025.12.25-00.05.18:289][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_162] Hello
+[2025.12.25-00.05.18:289][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_163] Hello
+[2025.12.25-00.05.18:290][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_164] Hello
+[2025.12.25-00.05.18:290][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_165] Hello
+[2025.12.25-00.05.18:291][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_166] Hello
+[2025.12.25-00.05.18:291][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_167] Hello
+[2025.12.25-00.05.18:292][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_168] Hello
+[2025.12.25-00.05.18:292][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_169] Hello
+[2025.12.25-00.05.18:292][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_170] Hello
+[2025.12.25-00.05.18:293][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_171] Hello
+[2025.12.25-00.05.18:293][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_172] Hello
+[2025.12.25-00.05.18:294][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_173] Hello
+[2025.12.25-00.05.18:294][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_174] Hello
+[2025.12.25-00.05.18:294][421]LogBlueprintUserMessages: [BP_EnemyProjectile_C_175] Hello
+[2025.12.25-00.05.19:288][481]LogBlueprintUserMessages: [BP_Sniperbullet_C_0] Hello
+[2025.12.25-00.05.19:290][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_176] Hello
+[2025.12.25-00.05.19:291][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_177] Hello
+[2025.12.25-00.05.19:291][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_178] Hello
+[2025.12.25-00.05.19:292][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_179] Hello
+[2025.12.25-00.05.19:292][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_180] Hello
+[2025.12.25-00.05.19:293][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_181] Hello
+[2025.12.25-00.05.19:293][481]LogBlueprintUserMessages: [BP_EnemyProjectile_C_182] Hello
+[2025.12.25-00.05.20:288][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_183] Hello
+[2025.12.25-00.05.20:289][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_184] Hello
+[2025.12.25-00.05.20:289][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_185] Hello
+[2025.12.25-00.05.20:289][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_186] Hello
+[2025.12.25-00.05.20:290][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_187] Hello
+[2025.12.25-00.05.20:290][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_188] Hello
+[2025.12.25-00.05.20:290][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_189] Hello
+[2025.12.25-00.05.20:291][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_190] Hello
+[2025.12.25-00.05.20:291][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_191] Hello
+[2025.12.25-00.05.20:291][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_192] Hello
+[2025.12.25-00.05.20:292][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_193] Hello
+[2025.12.25-00.05.20:292][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_194] Hello
+[2025.12.25-00.05.20:293][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_195] Hello
+[2025.12.25-00.05.20:293][541]LogBlueprintUserMessages: [BP_EnemyProjectile_C_196] Hello
+[2025.12.25-00.05.20:788][571]LogBlueprintUserMessages: [BP_EnemyProjectile_C_197] Hello
+[2025.12.25-00.05.20:803][572]LogBlueprintUserMessages: [BP_Sniperbullet_C_1] Hello
+[2025.12.25-00.05.20:887][577]LogBlueprintUserMessages: [BP_EnemyProjectile_C_198] Hello
+[2025.12.25-00.05.21:287][601]LogBlueprintUserMessages: [BP_EnemyProjectile_C_199] Hello
+[2025.12.25-00.05.21:289][601]LogBlueprintUserMessages: [BP_EnemyProjectile_C_200] Hello
+[2025.12.25-00.05.21:289][601]LogBlueprintUserMessages: [BP_EnemyProjectile_C_201] Hello
+[2025.12.25-00.05.21:290][601]LogBlueprintUserMessages: [BP_EnemyProjectile_C_202] Hello
+[2025.12.25-00.05.22:287][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_203] Hello
+[2025.12.25-00.05.22:288][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_204] Hello
+[2025.12.25-00.05.22:288][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_205] Hello
+[2025.12.25-00.05.22:289][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_206] Hello
+[2025.12.25-00.05.22:289][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_207] Hello
+[2025.12.25-00.05.22:290][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_208] Hello
+[2025.12.25-00.05.22:290][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_209] Hello
+[2025.12.25-00.05.22:290][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_210] Hello
+[2025.12.25-00.05.22:291][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_211] Hello
+[2025.12.25-00.05.22:291][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_212] Hello
+[2025.12.25-00.05.22:292][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_213] Hello
+[2025.12.25-00.05.22:292][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_214] Hello
+[2025.12.25-00.05.22:292][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_215] Hello
+[2025.12.25-00.05.22:293][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_216] Hello
+[2025.12.25-00.05.22:293][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_217] Hello
+[2025.12.25-00.05.22:293][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_218] Hello
+[2025.12.25-00.05.22:294][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_219] Hello
+[2025.12.25-00.05.22:294][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_220] Hello
+[2025.12.25-00.05.22:294][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_221] Hello
+[2025.12.25-00.05.22:295][661]LogBlueprintUserMessages: [BP_EnemyProjectile_C_222] Hello
+[2025.12.25-00.05.22:321][663]LogBlueprintUserMessages: [BP_Sniperbullet_C_2] Hello
+[2025.12.25-00.05.23:287][721]LogBlueprintUserMessages: [BP_EnemyProjectile_C_223] Hello
+[2025.12.25-00.05.23:288][721]LogBlueprintUserMessages: [BP_EnemyProjectile_C_224] Hello
+[2025.12.25-00.05.23:288][721]LogBlueprintUserMessages: [BP_EnemyProjectile_C_225] Hello
+[2025.12.25-00.05.23:288][721]LogBlueprintUserMessages: [BP_EnemyProjectile_C_226] Hello
+[2025.12.25-00.05.24:205][776]LogBlueprintUserMessages: [BP_EnemyProjectile_C_227] Hello
+[2025.12.25-00.05.24:287][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_228] Hello
+[2025.12.25-00.05.24:288][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_229] Hello
+[2025.12.25-00.05.24:289][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_230] Hello
+[2025.12.25-00.05.24:289][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_231] Hello
+[2025.12.25-00.05.24:290][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_232] Hello
+[2025.12.25-00.05.24:290][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_233] Hello
+[2025.12.25-00.05.24:290][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_234] Hello
+[2025.12.25-00.05.24:291][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_235] Hello
+[2025.12.25-00.05.24:291][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_236] Hello
+[2025.12.25-00.05.24:291][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_237] Hello
+[2025.12.25-00.05.24:292][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_238] Hello
+[2025.12.25-00.05.24:292][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_239] Hello
+[2025.12.25-00.05.24:292][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_240] Hello
+[2025.12.25-00.05.24:292][781]LogBlueprintUserMessages: [BP_EnemyProjectile_C_241] Hello
+[2025.12.25-00.05.24:989][823]LogBlueprintUserMessages: [BP_Shotgunbullet_C_0] Hello
+[2025.12.25-00.05.24:989][823]LogBlueprintUserMessages: [BP_Shotgunbullet_C_1] Hello
+[2025.12.25-00.05.24:990][823]LogBlueprintUserMessages: [BP_Shotgunbullet_C_2] Hello
+[2025.12.25-00.05.25:287][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_242] Hello
+[2025.12.25-00.05.25:289][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_243] Hello
+[2025.12.25-00.05.25:289][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_244] Hello
+[2025.12.25-00.05.25:290][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_245] Hello
+[2025.12.25-00.05.25:290][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_246] Hello
+[2025.12.25-00.05.25:291][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_247] Hello
+[2025.12.25-00.05.25:291][841]LogBlueprintUserMessages: [BP_EnemyProjectile_C_248] Hello
+[2025.12.25-00.05.26:004][884]LogBlueprintUserMessages: [BP_Shotgunbullet_C_3] Hello
+[2025.12.25-00.05.26:005][884]LogBlueprintUserMessages: [BP_Shotgunbullet_C_4] Hello
+[2025.12.25-00.05.26:005][884]LogBlueprintUserMessages: [BP_Shotgunbullet_C_5] Hello
+[2025.12.25-00.05.26:288][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_249] Hello
+[2025.12.25-00.05.26:289][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_250] Hello
+[2025.12.25-00.05.26:290][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_251] Hello
+[2025.12.25-00.05.26:290][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_252] Hello
+[2025.12.25-00.05.26:291][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_253] Hello
+[2025.12.25-00.05.26:291][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_254] Hello
+[2025.12.25-00.05.26:292][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_255] Hello
+[2025.12.25-00.05.26:292][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_256] Hello
+[2025.12.25-00.05.26:293][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_257] Hello
+[2025.12.25-00.05.26:293][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_258] Hello
+[2025.12.25-00.05.26:293][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_259] Hello
+[2025.12.25-00.05.26:294][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_260] Hello
+[2025.12.25-00.05.26:294][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_261] Hello
+[2025.12.25-00.05.26:294][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_262] Hello
+[2025.12.25-00.05.26:295][901]LogBlueprintUserMessages: [BP_EnemyProjectile_C_263] Hello
+[2025.12.25-00.05.27:289][961]LogBlueprintUserMessages: [BP_EnemyProjectile_C_264] Hello
+[2025.12.25-00.05.27:290][961]LogBlueprintUserMessages: [BP_EnemyProjectile_C_265] Hello
+[2025.12.25-00.05.27:290][961]LogBlueprintUserMessages: [BP_EnemyProjectile_C_266] Hello
+[2025.12.25-00.05.27:291][961]LogBlueprintUserMessages: [BP_EnemyProjectile_C_267] Hello
+[2025.12.25-00.05.27:522][975]LogBlueprintUserMessages: [BP_EnemyProjectile_C_268] Hello
+[2025.12.25-00.05.27:539][976]LogBlueprintUserMessages: [BP_Shotgunbullet_C_6] Hello
+[2025.12.25-00.05.27:540][976]LogBlueprintUserMessages: [BP_Shotgunbullet_C_7] Hello
+[2025.12.25-00.05.27:540][976]LogBlueprintUserMessages: [BP_Shotgunbullet_C_8] Hello
+[2025.12.25-00.05.28:288][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_269] Hello
+[2025.12.25-00.05.28:289][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_270] Hello
+[2025.12.25-00.05.28:290][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_271] Hello
+[2025.12.25-00.05.28:291][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_272] Hello
+[2025.12.25-00.05.28:291][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_273] Hello
+[2025.12.25-00.05.28:292][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_274] Hello
+[2025.12.25-00.05.28:292][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_275] Hello
+[2025.12.25-00.05.28:292][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_276] Hello
+[2025.12.25-00.05.28:293][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_277] Hello
+[2025.12.25-00.05.28:293][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_278] Hello
+[2025.12.25-00.05.28:294][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_279] Hello
+[2025.12.25-00.05.28:294][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_280] Hello
+[2025.12.25-00.05.28:294][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_281] Hello
+[2025.12.25-00.05.28:295][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_282] Hello
+[2025.12.25-00.05.28:295][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_283] Hello
+[2025.12.25-00.05.28:295][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_284] Hello
+[2025.12.25-00.05.28:296][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_285] Hello
+[2025.12.25-00.05.28:296][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_286] Hello
+[2025.12.25-00.05.28:297][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_287] Hello
+[2025.12.25-00.05.28:297][ 21]LogBlueprintUserMessages: [BP_EnemyProjectile_C_288] Hello
+[2025.12.25-00.05.29:290][ 81]LogBlueprintUserMessages: [BP_EnemyProjectile_C_289] Hello
+[2025.12.25-00.05.29:291][ 81]LogBlueprintUserMessages: [BP_EnemyProjectile_C_290] Hello
+[2025.12.25-00.05.29:292][ 81]LogBlueprintUserMessages: [BP_EnemyProjectile_C_291] Hello
+[2025.12.25-00.05.29:292][ 81]LogBlueprintUserMessages: [BP_EnemyProjectile_C_292] Hello
+[2025.12.25-00.05.30:291][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_293] Hello
+[2025.12.25-00.05.30:292][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_294] Hello
+[2025.12.25-00.05.30:292][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_295] Hello
+[2025.12.25-00.05.30:293][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_296] Hello
+[2025.12.25-00.05.30:293][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_297] Hello
+[2025.12.25-00.05.30:294][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_298] Hello
+[2025.12.25-00.05.30:294][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_299] Hello
+[2025.12.25-00.05.30:294][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_300] Hello
+[2025.12.25-00.05.30:295][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_301] Hello
+[2025.12.25-00.05.30:295][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_302] Hello
+[2025.12.25-00.05.30:296][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_303] Hello
+[2025.12.25-00.05.30:296][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_304] Hello
+[2025.12.25-00.05.30:296][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_305] Hello
+[2025.12.25-00.05.30:297][141]LogBlueprintUserMessages: [BP_EnemyProjectile_C_306] Hello
+[2025.12.25-00.05.30:842][174]LogBlueprintUserMessages: [BP_EnemyProjectile_C_307] Hello
+[2025.12.25-00.05.31:291][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_308] Hello
+[2025.12.25-00.05.31:292][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_309] Hello
+[2025.12.25-00.05.31:293][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_310] Hello
+[2025.12.25-00.05.31:293][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_311] Hello
+[2025.12.25-00.05.31:293][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_312] Hello
+[2025.12.25-00.05.31:294][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_313] Hello
+[2025.12.25-00.05.31:294][201]LogBlueprintUserMessages: [BP_EnemyProjectile_C_314] Hello
+[2025.12.25-00.05.31:792][231]LogBlueprintUserMessages: [BP_EnemyProjectile_C_315] Hello
+[2025.12.25-00.05.32:292][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_316] Hello
+[2025.12.25-00.05.32:292][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_317] Hello
+[2025.12.25-00.05.32:293][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_318] Hello
+[2025.12.25-00.05.32:294][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_319] Hello
+[2025.12.25-00.05.32:294][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_320] Hello
+[2025.12.25-00.05.32:295][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_321] Hello
+[2025.12.25-00.05.32:295][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_322] Hello
+[2025.12.25-00.05.32:295][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_323] Hello
+[2025.12.25-00.05.32:296][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_324] Hello
+[2025.12.25-00.05.32:296][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_325] Hello
+[2025.12.25-00.05.32:297][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_326] Hello
+[2025.12.25-00.05.32:297][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_327] Hello
+[2025.12.25-00.05.32:297][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_328] Hello
+[2025.12.25-00.05.32:297][261]LogBlueprintUserMessages: [BP_EnemyProjectile_C_329] Hello
+[2025.12.25-00.05.33:291][321]LogBlueprintUserMessages: [BP_EnemyProjectile_C_330] Hello
+[2025.12.25-00.05.33:292][321]LogBlueprintUserMessages: [BP_EnemyProjectile_C_331] Hello
+[2025.12.25-00.05.33:292][321]LogBlueprintUserMessages: [BP_EnemyProjectile_C_332] Hello
+[2025.12.25-00.05.33:293][321]LogBlueprintUserMessages: [BP_EnemyProjectile_C_333] Hello
+[2025.12.25-00.05.34:175][374]LogBlueprintUserMessages: [BP_EnemyProjectile_C_334] Hello
+[2025.12.25-00.05.34:291][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_335] Hello
+[2025.12.25-00.05.34:291][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_336] Hello
+[2025.12.25-00.05.34:292][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_337] Hello
+[2025.12.25-00.05.34:292][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_338] Hello
+[2025.12.25-00.05.34:293][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_339] Hello
+[2025.12.25-00.05.34:294][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_340] Hello
+[2025.12.25-00.05.34:294][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_341] Hello
+[2025.12.25-00.05.34:295][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_342] Hello
+[2025.12.25-00.05.34:295][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_343] Hello
+[2025.12.25-00.05.34:295][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_344] Hello
+[2025.12.25-00.05.34:296][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_345] Hello
+[2025.12.25-00.05.34:296][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_346] Hello
+[2025.12.25-00.05.34:297][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_347] Hello
+[2025.12.25-00.05.34:297][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_348] Hello
+[2025.12.25-00.05.34:297][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_349] Hello
+[2025.12.25-00.05.34:298][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_350] Hello
+[2025.12.25-00.05.34:298][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_351] Hello
+[2025.12.25-00.05.34:298][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_352] Hello
+[2025.12.25-00.05.34:299][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_353] Hello
+[2025.12.25-00.05.34:299][381]LogBlueprintUserMessages: [BP_EnemyProjectile_C_354] Hello
+[2025.12.25-00.05.34:924][419]LogScript: Warning: Script Msg: BP_ShotgunbulletEX_C_0 Explode SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2025.12.25-00.05.34:924][419]LogScript: Warning: Script Msg called by: BP_ShotgunbulletEX_C /Game/UEDPIE_0_StartMap.StartMap:PersistentLevel.BP_ShotgunbulletEX_C_0
+[2025.12.25-00.05.35:292][441]LogBlueprintUserMessages: [BP_EnemyProjectile_C_355] Hello
+[2025.12.25-00.05.35:292][441]LogBlueprintUserMessages: [BP_EnemyProjectile_C_356] Hello
+[2025.12.25-00.05.35:294][441]LogBlueprintUserMessages: [BP_EnemyProjectile_C_357] Hello
+[2025.12.25-00.05.35:294][441]LogBlueprintUserMessages: [BP_EnemyProjectile_C_358] Hello
+[2025.12.25-00.05.36:292][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_359] Hello
+[2025.12.25-00.05.36:293][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_360] Hello
+[2025.12.25-00.05.36:293][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_361] Hello
+[2025.12.25-00.05.36:295][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_362] Hello
+[2025.12.25-00.05.36:295][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_363] Hello
+[2025.12.25-00.05.36:296][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_364] Hello
+[2025.12.25-00.05.36:296][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_365] Hello
+[2025.12.25-00.05.36:297][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_366] Hello
+[2025.12.25-00.05.36:297][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_367] Hello
+[2025.12.25-00.05.36:298][501]LogBlueprintUserMessages: [BP_EnemyProjectile_C_368] Hello
+[2025.12.25-00.05.37:292][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_369] Hello
+[2025.12.25-00.05.37:292][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_370] Hello
+[2025.12.25-00.05.37:293][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_371] Hello
+[2025.12.25-00.05.37:294][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_372] Hello
+[2025.12.25-00.05.37:294][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_373] Hello
+[2025.12.25-00.05.37:294][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_374] Hello
+[2025.12.25-00.05.37:294][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_375] Hello
+[2025.12.25-00.05.37:296][561]LogBlueprintUserMessages: [BP_EnemyProjectile_C_376] Hello
+[2025.12.25-00.05.37:492][573]LogBlueprintUserMessages: [BP_EnemyProjectile_C_377] Hello
+[2025.12.25-00.05.38:292][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_378] Hello
+[2025.12.25-00.05.38:293][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_379] Hello
+[2025.12.25-00.05.38:293][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_380] Hello
+[2025.12.25-00.05.38:294][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_381] Hello
+[2025.12.25-00.05.38:294][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_382] Hello
+[2025.12.25-00.05.38:295][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_383] Hello
+[2025.12.25-00.05.38:295][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_384] Hello
+[2025.12.25-00.05.38:295][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_385] Hello
+[2025.12.25-00.05.38:296][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_386] Hello
+[2025.12.25-00.05.38:297][621]LogBlueprintUserMessages: [BP_EnemyProjectile_C_387] Hello
+[2025.12.25-00.05.39:292][681]LogBlueprintUserMessages: [BP_EnemyProjectile_C_388] Hello
+[2025.12.25-00.05.39:293][681]LogBlueprintUserMessages: [BP_EnemyProjectile_C_389] Hello
+[2025.12.25-00.05.39:293][681]LogBlueprintUserMessages: [BP_EnemyProjectile_C_390] Hello
+[2025.12.25-00.05.39:294][681]LogBlueprintUserMessages: [BP_EnemyProjectile_C_391] Hello
+[2025.12.25-00.05.40:293][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_392] Hello
+[2025.12.25-00.05.40:293][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_393] Hello
+[2025.12.25-00.05.40:294][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_394] Hello
+[2025.12.25-00.05.40:295][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_395] Hello
+[2025.12.25-00.05.40:295][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_396] Hello
+[2025.12.25-00.05.40:295][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_397] Hello
+[2025.12.25-00.05.40:296][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_398] Hello
+[2025.12.25-00.05.40:296][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_399] Hello
+[2025.12.25-00.05.40:296][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_400] Hello
+[2025.12.25-00.05.40:298][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_401] Hello
+[2025.12.25-00.05.40:298][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_402] Hello
+[2025.12.25-00.05.40:298][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_403] Hello
+[2025.12.25-00.05.40:298][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_404] Hello
+[2025.12.25-00.05.40:299][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_405] Hello
+[2025.12.25-00.05.40:299][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_406] Hello
+[2025.12.25-00.05.40:299][741]LogBlueprintUserMessages: [BP_EnemyProjectile_C_407] Hello
+[2025.12.25-00.05.40:810][772]LogBlueprintUserMessages: [BP_EnemyProjectile_C_408] Hello
+[2025.12.25-00.05.41:293][801]LogBlueprintUserMessages: [BP_EnemyProjectile_C_409] Hello
+[2025.12.25-00.05.41:293][801]LogBlueprintUserMessages: [BP_EnemyProjectile_C_410] Hello
+[2025.12.25-00.05.41:294][801]LogBlueprintUserMessages: [BP_EnemyProjectile_C_411] Hello
+[2025.12.25-00.05.41:295][801]LogBlueprintUserMessages: [BP_EnemyProjectile_C_412] Hello
+[2025.12.25-00.05.42:294][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_413] Hello
+[2025.12.25-00.05.42:295][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_414] Hello
+[2025.12.25-00.05.42:296][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_415] Hello
+[2025.12.25-00.05.42:296][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_416] Hello
+[2025.12.25-00.05.42:297][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_417] Hello
+[2025.12.25-00.05.42:298][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_418] Hello
+[2025.12.25-00.05.42:298][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_419] Hello
+[2025.12.25-00.05.42:298][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_420] Hello
+[2025.12.25-00.05.42:299][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_421] Hello
+[2025.12.25-00.05.42:299][861]LogBlueprintUserMessages: [BP_EnemyProjectile_C_422] Hello
+[2025.12.25-00.05.42:793][891]LogBlueprintUserMessages: [BP_EnemyProjectile_C_423] Hello
+[2025.12.25-00.05.43:293][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_424] Hello
+[2025.12.25-00.05.43:294][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_425] Hello
+[2025.12.25-00.05.43:295][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_426] Hello
+[2025.12.25-00.05.43:295][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_427] Hello
+[2025.12.25-00.05.43:296][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_428] Hello
+[2025.12.25-00.05.43:296][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_429] Hello
+[2025.12.25-00.05.43:297][921]LogBlueprintUserMessages: [BP_EnemyProjectile_C_430] Hello
+[2025.12.25-00.05.44:031][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.25-00.05.44:031][963]LogWorld: BeginTearingDown for /Game/UEDPIE_0_StartMap
+[2025.12.25-00.05.44:031][963]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.05.44:033][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.05.44:035][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.12.25-00.05.44:042][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.05.44:069][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.12.25-00.05.44:070][963]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 78
+[2025.12.25-00.05.44:070][963]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78, StreamState=4
+[2025.12.25-00.05.44:072][963]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78, StreamState=2
+[2025.12.25-00.05.44:084][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2025.12.25-00.05.44:149][964]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2025.12.25-00.06.50:925][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: HTTP request timed out after 30.00 seconds URL=https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=308DC1CD437632B73C8B9D8F19B44537
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: request failed, libcurl error: 0 (No error)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 0 (Found bundle for host: 0x1ce62880420 [serially])
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 1 (Hostname api.epicgames.dev was found in DNS cache)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 2 (  Trying 52.206.51.162:443...)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 3 (Connected to api.epicgames.dev (52.206.51.162) port 443)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 4 (ALPN: curl offers http/1.1)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 5 (SSL reusing session ID)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 6 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: 000001D09812C000: libcurl info message cache 7 (Closing connection)
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/datarouter/api/v1/public/data/clients?AppID=86f32f1151354e7cb39c12f8ab2c22a3&AppVersion=1.17.0-41373641&AppEnvironment=a01927f7421a4d4995673fe30ef46945&UploadType=eteventstream&SessionID=308DC1CD437632B73C8B9D8F19B44537
+[2025.12.25-00.06.50:926][394]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[Metrics], OperationName=[SendBackendEvent], Url=[<Redacted>]
+[2025.12.25-00.09.11:617][816]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24076.361328
+[2025.12.25-00.09.12:618][819]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.25-00.09.12:618][819]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24077.027344, Update Interval: 332.381348
+[2025.12.25-00.15.43:005][990]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24468.238281
+[2025.12.25-00.15.44:006][993]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.25-00.15.44:006][993]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24468.906250, Update Interval: 336.263306
+[2025.12.25-00.22.11:714][156]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 24857.498047
+[2025.12.25-00.22.12:716][159]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.12.25-00.22.12:716][159]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 24858.166016, Update Interval: 331.714844
+[2025.12.25-00.25.27:127][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2025.12.25-00.25.29:794][744]LogSlate: Window 'Save Content' being destroyed
+[2025.12.25-00.25.29:804][744]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.12.25-00.25.29:916][744]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StudentWork/Weapons/Guns/BP_Shotgun] ([2] browsable assets)...
+[2025.12.25-00.25.29:916][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Guns/BP_Shotgun]
+[2025.12.25-00.25.29:930][744]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/Guns/BP_Shotgun
+[2025.12.25-00.25.29:936][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Shotgun9D857E214ABBFBCD1D8E9EBDE3ABA651.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/Guns/BP_Shotgun.uasset'
+[2025.12.25-00.25.29:946][744]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StudentWork/Weapons/Guns/BP_ShotgunEX] ([2] browsable assets)...
+[2025.12.25-00.25.29:946][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Guns/BP_ShotgunEX]
+[2025.12.25-00.25.29:957][744]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/Guns/BP_ShotgunEX
+[2025.12.25-00.25.29:957][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_ShotgunEX4895019B4092016407D0DF816832C8A5.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/Guns/BP_ShotgunEX.uasset'
+[2025.12.25-00.25.29:965][744]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/StudentWork/Weapons/PickUps/BP_ShotgunEX_Pickup] ([2] browsable assets)...
+[2025.12.25-00.25.30:022][744]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StudentWork/Weapons/PickUps/BP_ShotgunEX_Pickup.BP_ShotgunEX_Pickup]
+[2025.12.25-00.25.30:022][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/PickUps/BP_ShotgunEX_Pickup]
+[2025.12.25-00.25.30:032][744]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/PickUps/BP_ShotgunEX_Pickup
+[2025.12.25-00.25.30:032][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_ShotgunEX_Pickup4C90545B471DAC98B6B01E8422E20F4F.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/PickUps/BP_ShotgunEX_Pickup.uasset'
+[2025.12.25-00.25.30:040][744]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StudentWork/Weapons/PickUps/BP_Shotgun_Pickup] ([2] browsable assets)...
+[2025.12.25-00.25.30:040][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/PickUps/BP_Shotgun_Pickup]
+[2025.12.25-00.25.30:048][744]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/PickUps/BP_Shotgun_Pickup
+[2025.12.25-00.25.30:048][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_Shotgun_Pickup0BB1358C427F292F217FF1B6F3BFECE9.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/PickUps/BP_Shotgun_Pickup.uasset'
+[2025.12.25-00.25.30:056][744]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StudentWork/Weapons/Projectiles/BP_Shotgunbullet] ([2] browsable assets)...
+[2025.12.25-00.25.30:056][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Projectiles/BP_Shotgunbullet]
+[2025.12.25-00.25.30:064][744]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/Projectiles/BP_Shotgunbullet
+[2025.12.25-00.25.30:064][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_ShotgunbulletEB2DA0D74BB8384A8BF508A650EDB4D2.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/Projectiles/BP_Shotgunbullet.uasset'
+[2025.12.25-00.25.30:071][744]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/StudentWork/Weapons/Projectiles/BP_ShotgunbulletEX] ([2] browsable assets)...
+[2025.12.25-00.25.30:078][744]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/StudentWork/Weapons/Projectiles/BP_ShotgunbulletEX.BP_ShotgunbulletEX]
+[2025.12.25-00.25.30:078][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/Weapons/Projectiles/BP_ShotgunbulletEX]
+[2025.12.25-00.25.30:091][744]LogSavePackage: Moving output files for package: /Game/StudentWork/Weapons/Projectiles/BP_ShotgunbulletEX
+[2025.12.25-00.25.30:096][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/BP_ShotgunbulletEX1DB7D6774C72A3922A2AF18DBB8C4F94.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/Weapons/Projectiles/BP_ShotgunbulletEX.uasset'
+[2025.12.25-00.25.30:104][744]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/StudentWork/VFX/NS_PBulletTrail_EX] ([1] browsable assets)...
+[2025.12.25-00.25.30:104][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/StudentWork/VFX/NS_PBulletTrail_EX]
+[2025.12.25-00.25.30:127][744]LogSavePackage: Moving output files for package: /Game/StudentWork/VFX/NS_PBulletTrail_EX
+[2025.12.25-00.25.30:127][744]LogSavePackage: Moving '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/NS_PBulletTrail_EX4CDEA2F8454F109BE15B71AE71C86E68.tmp' to '../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Content/StudentWork/VFX/NS_PBulletTrail_EX.uasset'
+[2025.12.25-00.25.30:141][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 337.893 ms (total: 1.92 sec)
+[2025.12.25-00.25.30:263][744]LogStall: Shutdown...
+[2025.12.25-00.25.30:263][744]LogStall: Shutdown complete.
+[2025.12.25-00.25.30:321][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.25-00.25.30:321][744]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:321][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:404][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.25-00.25.30:404][744]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:404][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:492][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.25-00.25.30:492][744]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:492][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:619][744]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:620][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:692][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.25-00.25.30:692][744]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:693][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:774][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.25-00.25.30:774][744]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:774][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:891][744]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:891][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.30:959][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.12.25-00.25.30:959][744]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.30:959][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:007][744]LogCascade: Quitting Cascade. FXSystem=0x000001D077ED7980
+[2025.12.25-00.25.31:020][744]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:020][744]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:114][744]LogSlate: Window 'Mechanics - Unreal Editor' being destroyed
+[2025.12.25-00.25.31:264][744]LogContentValidation: Display: Starting to validate 7 assets
+[2025.12.25-00.25.31:264][744]LogContentValidation: Enabled validators:
+[2025.12.25-00.25.31:264][744]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.12.25-00.25.31:264][744]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.12.25-00.25.31:264][744]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.12.25-00.25.31:264][744]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.12.25-00.25.31:264][744]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.12.25-00.25.31:264][744]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.12.25-00.25.31:264][744]AssetCheck: /Game/StudentWork/Weapons/Guns/BP_Shotgun Validating asset
+[2025.12.25-00.25.31:264][744]AssetCheck: /Game/StudentWork/Weapons/Guns/BP_ShotgunEX Validating asset
+[2025.12.25-00.25.31:265][744]AssetCheck: /Game/StudentWork/Weapons/PickUps/BP_ShotgunEX_Pickup Validating asset
+[2025.12.25-00.25.31:265][744]AssetCheck: /Game/StudentWork/Weapons/PickUps/BP_Shotgun_Pickup Validating asset
+[2025.12.25-00.25.31:265][744]AssetCheck: /Game/StudentWork/Weapons/Projectiles/BP_Shotgunbullet Validating asset
+[2025.12.25-00.25.31:265][744]AssetCheck: /Game/StudentWork/Weapons/Projectiles/BP_ShotgunbulletEX Validating asset
+[2025.12.25-00.25.31:265][744]AssetCheck: /Game/StudentWork/VFX/NS_PBulletTrail_EX Validating asset
+[2025.12.25-00.25.31:310][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2025.12.25-00.25.31:381][744]Cmd: QUIT_EDITOR
+[2025.12.25-00.25.31:382][744]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.12.25-00.25.31:382][744]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/james/Documents/GitHub/UE5.6-Mechanics-Prototyping/Mechanics/Saved/SourceControl/UncontrolledChangelists.json
+[2025.12.25-00.25.31:395][745]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.12.25-00.25.31:395][745]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.12.25-00.25.31:395][745]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.12.25-00.25.31:397][745]LogWorld: UWorld::CleanupWorld for StartMap, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:397][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:424][745]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.12.25-00.25.31:425][745]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.12.25-00.25.31:425][745]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.12.25-00.25.31:432][745]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:432][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:434][745]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:435][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:436][745]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:436][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:438][745]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:438][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:439][745]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:439][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:440][745]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:440][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:441][745]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:443][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:444][745]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:444][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:446][745]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:446][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:447][745]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:447][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:448][745]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:448][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:450][745]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:450][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:451][745]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:451][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:452][745]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:453][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:454][745]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:454][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:455][745]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:455][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:456][745]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:456][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:458][745]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:458][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:458][745]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:458][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:460][745]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:460][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:462][745]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:462][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:463][745]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:463][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:464][745]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:464][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:465][745]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:465][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:467][745]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2025.12.25-00.25.31:467][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.12.25-00.25.31:468][745]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.12.25-00.25.31:468][745]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.12.25-00.25.31:483][745]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.12.25-00.25.31:851][745]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.12.25-00.25.31:851][745]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.12.25-00.25.31:851][745]LogAudio: Display: Audio Device unregistered from world 'StartMap'.
+[2025.12.25-00.25.31:851][745]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.12.25-00.25.31:851][745]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.12.25-00.25.31:852][745]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.12.25-00.25.31:859][745]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.12.25-00.25.31:859][745]LogAudio: Display: Audio Device Manager Shutdown
+[2025.12.25-00.25.31:859][745]LogWindowsTextInputMethodSystem: Activated input method: English (United Kingdom) - (Keyboard).
+[2025.12.25-00.25.31:862][745]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.12.25-00.25.31:862][745]LogExit: Preparing to exit.
+[2025.12.25-00.25.31:912][745]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.31:920][745]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.12.25-00.25.32:775][745]LogEditorDataStorage: Deinitializing
+[2025.12.25-00.25.32:914][745]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.12.25-00.25.32:927][745]LogExit: Editor shut down
+[2025.12.25-00.25.32:930][745]LogExit: Transaction tracking system shut down
+[2025.12.25-00.25.33:061][745]LogExit: Object subsystem successfully closed.
+[2025.12.25-00.25.33:177][745]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.12.25-00.25.33:249][745]LogMemoryProfiler: Shutdown
+[2025.12.25-00.25.33:249][745]LogNetworkingProfiler: Shutdown
+[2025.12.25-00.25.33:249][745]LoadingProfiler: Shutdown
+[2025.12.25-00.25.33:249][745]LogTimingProfiler: Shutdown
+[2025.12.25-00.25.33:249][745]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.12.25-00.25.33:249][745]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.12.25-00.25.33:556][745]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.12.25-00.25.33:590][745]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.12.25-00.25.33:590][745]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA0ED9742-458D-9EE7-4EBA-D6BFBC1F4DE8%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=4e57a9d4498e094553ca38beed55dd44%7Cfde7051e5b034d7d98c629f25187b32f%7C1e199d73-0bdf-493c-ad78-415592909de7&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.12.25-00.25.34:121][745]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.12.25-00.25.34:135][745]RenderDocPlugin: plugin has been unloaded.
+[2025.12.25-00.25.34:139][745]LogNFORDenoise: NFORDenoise function shutting down
+[2025.12.25-00.25.34:139][745]LogXGEController: Cleaning working directory: C:/Users/james/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.12.25-00.25.34:141][745]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.12.25-00.25.34:141][745]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.12.25-00.25.34:141][745]LogPakFile: Destroying PakPlatformFile
+[2025.12.25-00.25.34:383][745]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.12.25-00.25.34:417][745]LogExit: Exiting.
+[2025.12.25-00.25.34:461][745]Log file closed, 12/25/25 00:25:34
